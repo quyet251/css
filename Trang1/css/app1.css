@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Gluten:wght@300;400;500;600;700;800;900&family=Montserrat:wght@400;500&display=swap');
 body{
     background:url('../images/bk-16760843813451594096492.jpg') no-repeat center fixed;
     background-size: cover;
@@ -30,10 +30,13 @@ margin: 2px;
     margin: 0;
     padding: 25px 40px;
     display: flex;
+    font-weight: 500;
+    font-size: large;
 flex-direction: column;
 justify-content: left;
 text-align: left;
 font-size: large;
+font-family: 'Montserrat', sans-serif;
 }
 #topnav {
     margin: 0;
@@ -50,6 +53,8 @@ font-size: large;
     display: flex;
     margin: 0px auto;
     max-width: 1400px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
 }
 #tab li a{
     color: black;

@@ -23,6 +23,10 @@ const toastDetails = {
     icon: "fa-info-circle",
     message: "Đã xóa thành công !",
   },
+  tao: {
+    icon: "fa-info-circle",
+    message: "Đã tạo trang sheet mới!",
+  },
 };
 const handleCreateToast = (id) => {
   const { icon, message } = toastDetails[id];
