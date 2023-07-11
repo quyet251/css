@@ -7,22 +7,19 @@ const removeToast = (toast) => {
 };
 
 const toastDetails = {
-  upsv: {
-    icon: "fa-check-circle",
-    message: "Đã tải lên danh sách sinh viên!",
-  },
-  updt: {
-    icon: "fa-check-circle",
-    message: "Đã tải lên danh sách đề tài",
-  },
-  cn: {
-    icon: "fa-check-circle",
-    message: "Cập nhật thành công!",
-  },
-  xoa: {
-    icon: "fa-info-circle",
-    message: "Đã xóa thành công !",
-  },
+    taoform: {
+        icon: "fa-check-circle",
+        message: "Đã tạo được form !",
+      },
+      copy: {
+        icon: "fa-check-circle",
+        message: "Đã copy link form!",
+      },
+      tai: {
+        icon: "fa-check-circle",
+        message: "Đã tải form thành công !",
+      },
+    
 };
 const handleCreateToast = (id) => {
   const { icon, message } = toastDetails[id];
